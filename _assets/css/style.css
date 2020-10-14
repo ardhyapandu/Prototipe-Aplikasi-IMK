@@ -1,0 +1,42 @@
+		.nav1 ul li a{ 
+			width:130px;
+			height:60px;
+			text-align:center;
+			line-height:60px;
+			display:block;
+		}
+		.nav1 ul li{
+			float: left;
+			list-style:none;
+		}
+		.nav1 ul li a:hover{
+			background-color:#FF7433;
+			color:white;
+			transition: .5s;
+		}
+		.mobile {
+			float: right;
+			display: none;
+			padding: 12px;
+		}
+		.mobile:hover{
+			cursor: pointer;
+		}
+		#check {
+			display: none;
+		}
+		
+		#check:checked ~ .sidebar1{
+			left: 0;
+		}
+		@media (max-width: 938px){
+			.mobile{
+				display: block;
+			}
+			.nav1 ul{
+				display: none;
+			}
+		}
+		tr th{
+			text-align: center;
+		}
